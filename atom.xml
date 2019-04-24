@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://moanbigking.com/"/>
-  <updated>2019-04-25T01:57:34.000Z</updated>
+  <updated>2019-04-24T10:39:38.957Z</updated>
   <id>https://moanbigking.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初次编译AOSP（macOS）</title>
+    <link href="https://moanbigking.com/2019/04/25/aosp/"/>
+    <id>https://moanbigking.com/2019/04/25/aosp/</id>
+    <published>2019-04-24T18:07:42.000Z</published>
+    <updated>2019-04-24T10:39:38.957Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前也想编AOSP，但是之前的破烂<del>垫板</del>电脑内存不够了，又懒得在别的磁盘再装一个arch，又不想用除了arch之外的linux，而且不想用稳定的manjaro，所以说一鸽再鸽。最近换了Mac，顺便在看源码方面的东西，顺势就把AOSP编啦。</p><p>我的电脑是macOS 10.14.3，编译的是目前官网最新（P）的源代码，选用的vendor是Pixel 3 XL。<del>选择其他版本该遇到的错误躲不开。</del></p><p>大致流程和网上的基本相同，看这个<a href="https://juejin.im/post/5b690cb46fb9a04fd044885d" target="_blank" rel="noopener">参考</a>走基本就无问题，或者干脆按照官网装也不会有错。记一下我遇到的几个bug和解决办法、注意事项。</p><ol><li><p>在建立磁盘映像时记得最好给出100G+的内存空间，并且格式要选择大小写敏感、日志式，最好选稀疏映像方便后续调整大小。</p></li><li><p>执行<code>repo sync</code>之后无事发生</p><p>所谓无事发生是指没有报错，没有进度条，仿佛是它在慢慢加载。</p><p>这样的情况下说明你的repo没有真正的安装成功，运行<code>repo help</code>，会提示错误，只需要重新安装repo并能够保证</p><p><code>repo help</code>命令正确执行，再进行同步。</p></li><li><p>执行<code>make -j8</code>（或者是j+你自定义的数字）后，在中途报出许多warning并最后编译失败，最后一条信息或许是<code>#### make failed to build some targets (01:23 (mm:ss)) ####</code>，这个时候只需要在命令行执行</p><p><code>unset NDK_ROOT</code>，并且最好紧接着执行<code>make clobber</code>以删除以前编译的信息，此后重新编译即可。</p></li></ol><p>然后我就成功了，好快乐（。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;之前也想编AOSP，但是之前的破烂&lt;del&gt;垫板&lt;/del&gt;电脑内存不够了，又懒得在别的磁盘再装一个arch，又不想用除了arch之外的linux，而且不想用稳定的manjaro，所以说一鸽再鸽。最近换了Mac，顺便在看源码方面的东西，顺势就把AOSP编啦。&lt;/p&gt;
+&lt;p&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>经典日麻教程</title>
