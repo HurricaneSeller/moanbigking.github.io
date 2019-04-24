@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Crispy &amp; Salty Mog</title>
+  
+  <subtitle>moanbigking&#39;s blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://moanbigking.com/"/>
+  <updated>2019-04-25T01:57:34.000Z</updated>
+  <id>https://moanbigking.com/</id>
+  
+  <author>
+    <name>moanbigking</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>经典日麻教程</title>
+    <link href="https://moanbigking.com/2019/04/17/mj/"/>
+    <id>https://moanbigking.com/2019/04/17/mj/</id>
+    <published>2019-04-16T19:34:36.000Z</published>
+    <updated>2019-04-25T01:57:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><del>雀魂启动！</del><br>适用人群：我自己</p><h2 id="一、快速上手"><a href="#一、快速上手" class="headerlink" title="一、快速上手"></a>一、快速上手</h2><h3 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h3><p>手牌由13张牌构成，顺子是连在一起的三张牌，刻子是三张或四张相同的牌，雀子是两张相同的牌。面子是顺子和刻子。</p><p>在立直麻将中，无役不能和牌！</p><p>在雀魂中，共有42种役（番型）。作为一个萌新，你只要记住断幺九，立直和役牌这三种就可以了。</p><h3 id="术语"><a href="#术语" class="headerlink" title="术语"></a>术语</h3><h4 id="幺九"><a href="#幺九" class="headerlink" title="幺九"></a>幺九</h4><p>所有的1和9数字牌，风牌，三元牌统称幺九牌。</p><p>当手头所有的面子和雀子都不包含幺九牌，就可以和牌（断幺九）。</p><h4 id="立直"><a href="#立直" class="headerlink" title="立直"></a>立直</h4><p>还差一张牌就和牌的状态称为<strong>听牌</strong>状态。</p><p>在没有吃、碰、大明杠的情况下（门前清）进入听牌状态，就可以宣告立直，宣告之后只能挂机等和。</p><h4 id="振听"><a href="#振听" class="headerlink" title="振听"></a>振听</h4><p>你所听的牌中，包含了你<strong>打出过</strong>或者<strong>别人放铳你没有和</strong>的状态，叫做<strong>振听</strong>状态。振听状态下，<strong>只能自摸，不能铳和</strong>。</p><p>振听分为以下三种：</p><ul><li><strong>同巡振听</strong>：在没有振听的情况下听牌，别家打出铳牌不和，将会进入同巡振听。同巡真听在下一次自己打出牌后会解除。</li><li><strong>立直振听</strong>：在没有振听的情况下立直，别家打出铳牌不和，将会进入立直振听。立直振听不可解除。</li><li><strong>舍张振听</strong>：我没学会。</li></ul><h4 id="役牌"><a href="#役牌" class="headerlink" title="役牌"></a>役牌</h4><p>役牌指的是三种特定牌组成的刻子：场风牌、自风牌、三元牌。</p><ul><li>场风派：东风场的东，南风场的南。</li><li>自风牌：东家的东，南家的南。</li><li>三元牌：白板、发财、红中。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;del&gt;雀魂启动！&lt;/del&gt;&lt;br&gt;适用人群：我自己&lt;/p&gt;
+&lt;h2 id=&quot;一、快速上手&quot;&gt;&lt;a href=&quot;#一、快速上手&quot; class=&quot;headerlink&quot; title=&quot;一、快速上手&quot;&gt;&lt;/a&gt;一、快速上手&lt;/h2&gt;&lt;h3 id=&quot;规则&quot;&gt;&lt;a href=&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>学习计划</title>
+    <link href="https://moanbigking.com/2019/04/02/plan/"/>
+    <id>https://moanbigking.com/2019/04/02/plan/</id>
+    <published>2019-04-01T20:30:05.000Z</published>
+    <updated>2019-04-25T01:57:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我要学的东西-看的书"><a href="#我要学的东西-看的书" class="headerlink" title="我要学的东西/看的书"></a>我要学的东西/看的书</h1><h3 id="安卓相关"><a href="#安卓相关" class="headerlink" title="安卓相关"></a>安卓相关</h3><ul><li>安卓源码、设计模式、gradle、信安相关的黑客攻防。</li><li>各种框架。</li></ul><h3 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h3><ol><li><p>HTML+CSS  <a href="http://www.imooc.com/learn/9" target="_blank" rel="noopener">MOOC网课</a>、《CSS权威指南（第3版）》《CSS3 专业网页开发指南》</p><p>（用时：5天）</p></li><li><p><a href="https://github.com/ecomfe/spec" target="_blank" rel="noopener">代码规范</a></p></li><li><p>JS 《JavaScript高级程序设计（第3版）》、《JavaScript语言精粹》、《你不知道的JS》、《ES6 标准入门》（《JavaScript设计模式与开发实践》、《高性能JavaScript》）</p></li><li><p>JS框架</p></li></ol><h1 id="我的锅"><a href="#我的锅" class="headerlink" title="我的锅"></a>我的锅</h1><h5 id="联创守护者移动端，MVVM-kotlin（5月前）"><a href="#联创守护者移动端，MVVM-kotlin（5月前）" class="headerlink" title="联创守护者移动端，MVVM+kotlin（5月前）"></a>联创守护者移动端，MVVM+kotlin（5月前）</h5><h5 id="联创守护者女主角，跟拍就行"><a href="#联创守护者女主角，跟拍就行" class="headerlink" title="联创守护者女主角，跟拍就行"></a>联创守护者女主角，跟拍就行</h5><h5 id="大创iremember主程序，MVP-openGL-ES（一年，可鸽）"><a href="#大创iremember主程序，MVP-openGL-ES（一年，可鸽）" class="headerlink" title="大创iremember主程序，MVP+openGL ES（一年，可鸽）"></a>大创iremember主程序，MVP+openGL ES（一年，可鸽）</h5><h5 id="工程实训，Qt框架C-游戏，主程序（学期末）"><a href="#工程实训，Qt框架C-游戏，主程序（学期末）" class="headerlink" title="工程实训，Qt框架C++游戏，主程序（学期末）"></a>工程实训，Qt框架C++游戏，主程序（学期末）</h5><h5 id="签合同的前端（8、9月）"><a href="#签合同的前端（8、9月）" class="headerlink" title="签合同的前端（8、9月）"></a>签合同的前端（8、9月）</h5><h5 id="每周一算法"><a href="#每周一算法" class="headerlink" title="每周一算法"></a>每周一算法</h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;我要学的东西-看的书&quot;&gt;&lt;a href=&quot;#我要学的东西-看的书&quot; class=&quot;headerlink&quot; title=&quot;我要学的东西/看的书&quot;&gt;&lt;/a&gt;我要学的东西/看的书&lt;/h1&gt;&lt;h3 id=&quot;安卓相关&quot;&gt;&lt;a href=&quot;#安卓相关&quot; class=&quot;head
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
